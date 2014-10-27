@@ -20,10 +20,6 @@ public class Array {
         System.out.println("input nama ke"+(i+1)+":");
         nama[i] = input.nextLine();
         }
-        for(int i=0; i<5;i++){
-            System.out.println("Nama ke"+(i+1)+":"+nama[i]);
-        }  
-    
         for(int i= 0;i<5; i++){
         System.out.println("input npm ke"+(i+1)+":");
         npm[i] = input.nextInt();
@@ -31,5 +27,9 @@ public class Array {
         for(int i=0; i<5;i++){
             System.out.println("Npm ke"+(i+1)+":"+npm[i]);
         }
+         for(int i=0; i<5;i++){
+            System.out.println("Nama ke"+(i+1)+":"+nama[i]);
+        }
+        
     }
 }
